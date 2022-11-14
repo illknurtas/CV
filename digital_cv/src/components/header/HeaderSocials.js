@@ -5,13 +5,13 @@ import {VscGithub} from 'react-icons/vsc'
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href='https://linkedin.com'target='_blank'>
+        <a href='https://www.linkedin.com/in/ilknurtas/'target='_blank'>
              <CiLinkedin/>
         </a>
-        <a href='https://github.com'target='_blank'>
+        <a href='https://github.com/illknurtas'target='_blank'>
             <VscGithub/>
         </a>
-        <a href='https://discord.com'target='_blank'>
+        <a href='https://discord.com/'target='_blank'>
             <TbBrandDiscord/>
         </a>
     </div>
