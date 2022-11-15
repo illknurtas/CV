@@ -31,7 +31,7 @@ const About = () => {
             Nobis inventore itaque pariatur rerum nisi tempore distinctio, quos obcaecati architecto modi autem 
             quia dignissimos illum quidem odit consectetur?
           </p>
-          <a href='#contact' className='btn btn-primary'>Let's Talk</a>
+          {/* <a href='#contact' className='btn btn-primary'>Let's Talk</a> */}
         </div>
       </div>
     </section>

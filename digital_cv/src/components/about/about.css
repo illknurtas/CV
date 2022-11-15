@@ -25,7 +25,7 @@
 }
 .about_cards{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 1.5rem;
 }
 .about_card{
@@ -63,6 +63,10 @@
     .about_container{
         grid-template-columns: 1fr;
         gap: 0;
+    }
+    .about_cards{
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
     }
     .about_me{
         width: 50%;
