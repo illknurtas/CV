@@ -5,6 +5,7 @@ import {AiOutlineUser} from 'react-icons/ai';
 import {FiMail} from 'react-icons/fi';
 import {HiOutlineDocumentText} from 'react-icons/hi';
 import {RiServiceLine} from 'react-icons/ri';
+import {AiOutlineFundProjectionScreen} from 'react-icons/ai'
 import { useState } from 'react';
 
 const Nav = () => {
@@ -30,6 +31,11 @@ const Nav = () => {
       onClick={()=> setActiveNav('#services')}
       className={activeNav === '#services' ? 'active' : ''}>
         <RiServiceLine/>
+      </a>
+      <a href="#portfolio"
+      onClick={()=> setActiveNav('#portfolio')}
+      className={activeNav === '#portfolio' ? 'active' : ''}>
+        <AiOutlineFundProjectionScreen/>
       </a>
       <a href="#contact"
       onClick={()=> setActiveNav('#contact')}

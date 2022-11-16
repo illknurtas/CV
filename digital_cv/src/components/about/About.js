@@ -27,9 +27,13 @@ const About = () => {
               <small>4 projects completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae, omnis blanditiis. 
-            Nobis inventore itaque pariatur rerum nisi tempore distinctio, quos obcaecati architecto modi autem 
-            quia dignissimos illum quidem odit consectetur?
+          <p>
+            I freshly graduated from computer engineering degree. 
+            Proficient in desktop development environments. 
+            Adept using HTML, CSS, JavaScript, and other programming languages to produce clean code. 
+            Well-organized and collaborative team player with strong communication and analytical abilities. 
+            Fluent in English. 
+
           </p>
           {/* <a href='#contact' className='btn btn-primary'>Let's Talk</a> */}
         </div>

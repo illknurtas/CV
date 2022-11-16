@@ -1,14 +1,12 @@
 import React from 'react'
 import './footer.css'
-import {TfiTwitter} from 'react-icons/tfi'
+import {CiLinkedin} from 'react-icons/ci'
 import  {BsInstagram} from 'react-icons/bs'
-import {AiOutlineFacebook} from 'react-icons/ai'
+import {VscGithub} from 'react-icons/vsc'
 
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer_logo'>Digital CV</a>
-
       <ul className='permalinks'>
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
@@ -18,9 +16,13 @@ const Footer = () => {
         <li><a href='#contact'>Contact</a></li>
       </ul>
       <div className='footer_socials'>
-        <a href='https://facebook.com'><AiOutlineFacebook/></a>
         <a href='https://instagram.com'><BsInstagram/></a>
-        <a href='https://twitter.com'><TfiTwitter/></a>
+        <a href='https://www.linkedin.com/in/ilknurtas/'target='_blank'>
+             <CiLinkedin/>
+        </a>
+        <a href='https://github.com/illknurtas'target='_blank'>
+            <VscGithub/>
+        </a>
       </div>
       <div className='copyright'>
         {new Date().getFullYear()}
